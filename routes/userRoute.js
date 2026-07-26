@@ -14,5 +14,13 @@ route.post('/login', (req, res) => {
     userController.login(req, res);
 })
 
+route.post('/forget-password', (req, res) => {
+    userController.forgetPassword(req, res);
+})
+
+route.post("/reset-password/:token", (req, res) => {
+    userController.resetPassword(req, res)
+
+});
 
 module.exports = route;
