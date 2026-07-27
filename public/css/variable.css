@@ -1,0 +1,18 @@
+:root {
+
+    --primary: #2563eb;
+    --primary-dark: #1d4ed8;
+
+    --background: #f4f7fb;
+
+    --card: #ffffff;
+
+    --text: #1f2937;
+
+    --muted: #6b7280;
+
+    --radius: 18px;
+
+    --shadow: 0 15px 35px rgba(0, 0, 0, .08);
+
+}

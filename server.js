@@ -4,7 +4,6 @@ const app = require("./app");
 const connectDB = require('./config/connection');
 const PORT = 3000;
 
-
 //connect database
 connectDB();
 
