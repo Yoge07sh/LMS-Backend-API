@@ -116,8 +116,7 @@ const forgetPassword = async (req, res) => {
 
         await user.save();
 
-        const resetUrl = `http://localhost:3000/auth/reset-password/${resetToken}`;
-
+        const resetUrl = `http://localhost:3000/reset-password/${resetToken}`;
         const message = `
 You requested a password reset.
 
